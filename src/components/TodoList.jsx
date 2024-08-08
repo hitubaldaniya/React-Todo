@@ -18,9 +18,10 @@ const TodoList = ({ todos, setTodos }) => {
       // if (index === parseInt(item)) todo.completed = !todo.completed;
       // return todo;
     });
-    const sorted = completed.slice();
-    // .sort((a, b) => Number(a.completed) - Number(b.completed));
-    // setTodos(sorted);
+    const sorted = completed
+      .slice()
+      .sort((a, b) => Number(a.completed) - Number(b.completed));
+    setTodos(sorted);
     console.log(sorted);
     // setTodos(completed);
   }
