@@ -1,0 +1,19 @@
+.smartButton {
+    background-color: #f7ca18;
+    border: none;
+    border-radius: 4px;
+    /* border-color: rgb(209, 121, 212); */
+    padding: 3px;
+    color: #FFFFFF;
+    float: right;
+    cursor: pointer;
+    padding: 2px 7px;
+    margin: 0 3px;
+}
+.smartButton:hover {
+    background-color: #F7CA94;
+}
+.completed {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
